@@ -1,0 +1,2 @@
+# Solo módulos estándar de Python
+# No se requieren instalaciones adicionales
