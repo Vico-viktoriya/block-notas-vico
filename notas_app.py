@@ -40,8 +40,8 @@ def main():
              break
           lineas.append(linea)
         from datetime import datetime
-        hora_actual = datetime.now().srtftime("%H:%M")
-        nueva_nota = F"[{hora_actual}] " + "\n".join(lineas)
+        hora_actual = datetime.now().strftime("%H:%M")
+        nueva_nota = f"[{hora_actual}] " + "\n".join(lineas)
         if nueva_nota:
            notas.append(nueva_nota)
            guardar_notas(notas)
